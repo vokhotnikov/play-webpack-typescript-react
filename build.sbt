@@ -26,7 +26,7 @@ lazy val commonSettings = Seq(
     "org.scala-lang" % "scala-library" % scalaVersion.value,
     "org.scala-lang" % "scala-reflect" % scalaVersion.value
   ),
-  scapegoatVersion := "1.3.0",
+  scapegoatVersion := "1.3.1",
   wartremoverErrors ++= Warts.unsafe,
   crossScalaVersions := Seq("2.11.11", "2.12.1"),
   scalafmtVersion in ThisBuild := "1.0.0-RC4",
